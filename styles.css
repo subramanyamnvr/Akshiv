@@ -172,6 +172,39 @@ button {
   font-weight: 700;
 }
 
+.language-buttons {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid rgba(13, 59, 46, 0.1);
+}
+
+.language-button {
+  min-height: 36px;
+  padding: 0.45rem 0.85rem;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--forest);
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 180ms ease, color 180ms ease, transform 180ms ease;
+}
+
+.language-button:hover,
+.language-button:focus-visible {
+  background: rgba(13, 59, 46, 0.08);
+}
+
+.language-button.is-active {
+  background: linear-gradient(135deg, var(--forest), var(--moss));
+  color: #fff;
+  box-shadow: 0 8px 18px rgba(13, 59, 46, 0.18);
+}
+
 .site-nav a {
   font-weight: 700;
   color: var(--muted);
@@ -1178,8 +1211,9 @@ p {
     width: 100%;
   }
 
-  .language-select {
+  .language-buttons {
     width: 100%;
+    justify-content: space-between;
   }
 
   .site-nav.is-open {

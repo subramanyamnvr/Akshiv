@@ -49,12 +49,12 @@
           <a href="#coverage" data-i18n="nav.destinations">Destinations</a>
           <a href="#faq" data-i18n="nav.faq">FAQ</a>
           <div class="language-switcher">
-            <label class="language-label" for="language-select" data-i18n="ui.language">Language</label>
-            <select id="language-select" class="language-select" aria-label="Select language" data-i18n-aria-label="accessibility.languageSelect">
-              <option value="en">English</option>
-              <option value="hi">हिन्दी</option>
-              <option value="pa">ਪੰਜਾਬੀ</option>
-            </select>
+            <span class="language-label" data-i18n="ui.language">Language</span>
+            <div class="language-buttons" role="group" aria-label="Select language" data-i18n-aria-label="accessibility.languageSelect">
+              <button class="language-button is-active" type="button" data-language-option="en" aria-pressed="true">English</button>
+              <button class="language-button" type="button" data-language-option="hi" aria-pressed="false">हिन्दी</button>
+              <button class="language-button" type="button" data-language-option="pa" aria-pressed="false">ਪੰਜਾਬੀ</button>
+            </div>
           </div>
           <a class="nav-cta" href="#contact" data-i18n="nav.planTrip">Plan Your Trip</a>
         </nav>

@@ -605,7 +605,7 @@ const whatsappLink = document.querySelector("[data-whatsapp-link]");
 const callLink = document.querySelector("[data-call-link]");
 const yearTarget = document.querySelector("[data-current-year]");
 const revealTargets = document.querySelectorAll(".reveal");
-const languageSelect = document.querySelector("#language-select");
+const languageButtons = document.querySelectorAll("[data-language-option]");
 const metaDescription = document.querySelector('meta[name="description"]');
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
@@ -658,9 +658,11 @@ function translatePage(language) {
     }
   });
 
-  if (languageSelect) {
-    languageSelect.value = activeLanguage;
-  }
+  languageButtons.forEach((button) => {
+    const isActive = button.dataset.languageOption === activeLanguage;
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
+  });
 
   localStorage.setItem("preferredLanguage", activeLanguage);
   applyContactConfig(activeLanguage);
@@ -732,11 +734,11 @@ translatePage(initialLanguage);
 
 window.addEventListener("scroll", updateHeaderState, { passive: true });
 
-if (languageSelect) {
-  languageSelect.addEventListener("change", (event) => {
-    translatePage(event.target.value);
+languageButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    translatePage(button.dataset.languageOption);
   });
-}
+});
 
 if (menuToggle && siteNav) {
   menuToggle.addEventListener("click", () => {
