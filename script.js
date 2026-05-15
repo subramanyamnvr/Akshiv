@@ -1,6 +1,6 @@
 const contactConfig = {
-  phoneDisplay: "",
-  phoneRaw: "",
+  phoneDisplay: "980559166",
+  phoneRaw: "980559166",
   email: "",
 };
 

@@ -414,8 +414,8 @@ p {
 .scenic-card {
   min-height: 560px;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.08)),
-    linear-gradient(180deg, #59c2f4 0%, #95dcfb 26%, #fefaf1 56%, #1d6d57 56%, #0d3b2e 100%);
+    linear-gradient(180deg, rgba(16, 45, 37, 0.08) 0%, rgba(16, 45, 37, 0.12) 24%, rgba(10, 34, 28, 0.68) 72%, rgba(7, 24, 20, 0.9) 100%),
+    url("Files/istockphoto-1173839897-612x612.jpg") center/cover no-repeat;
 }
 
 .scenic-card::before,
@@ -430,12 +430,12 @@ p {
 
 .scenic-card::before {
   left: -10%;
-  background: linear-gradient(180deg, #245948, #0d3b2e);
+  background: linear-gradient(180deg, rgba(36, 89, 72, 0.82), rgba(13, 59, 46, 0.92));
 }
 
 .scenic-card::after {
   right: -5%;
-  background: linear-gradient(180deg, #4e8aa7, #143d5e);
+  background: linear-gradient(180deg, rgba(78, 138, 167, 0.72), rgba(20, 61, 94, 0.88));
 }
 
 .scenic-card__sun {
@@ -497,6 +497,18 @@ p {
   justify-content: flex-end;
   min-height: 520px;
   padding-top: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.scenic-card__content::before {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 64%;
+  border-radius: 28px 28px 24px 24px;
+  background: linear-gradient(180deg, rgba(9, 31, 25, 0.1), rgba(9, 31, 25, 0.9));
+  z-index: -1;
 }
 
 .panel-kicker {
@@ -655,8 +667,8 @@ p {
 
 .showcase-card--sunrise {
   background:
-    radial-gradient(circle at 16% 16%, rgba(255, 247, 187, 0.38), transparent 16%),
-    linear-gradient(135deg, #f3803c 0%, #f4b73f 42%, #2e7d69 100%);
+    linear-gradient(180deg, rgba(22, 27, 19, 0.08), rgba(10, 25, 19, 0.72)),
+    url("Files/istockphoto-1352038187-612x612.jpg") center/cover no-repeat;
 }
 
 .showcase-card--sunrise::before {
@@ -664,7 +676,9 @@ p {
 }
 
 .showcase-card--temple {
-  background: linear-gradient(145deg, #8a4db8 0%, #d36485 45%, #f1a83a 100%);
+  background:
+    linear-gradient(180deg, rgba(46, 17, 38, 0.14), rgba(46, 17, 38, 0.8)),
+    url("Files/istockphoto-1187136589-612x612.jpg") center/cover no-repeat;
 }
 
 .showcase-card--temple::before {
@@ -672,7 +686,9 @@ p {
 }
 
 .showcase-card--snow {
-  background: linear-gradient(150deg, #4db3f1 0%, #7dd3ff 42%, #155a7d 100%);
+  background:
+    linear-gradient(180deg, rgba(11, 35, 48, 0.08), rgba(11, 35, 48, 0.72)),
+    url("Files/istockphoto-1302478984-612x612.jpg") center/cover no-repeat;
 }
 
 .showcase-card--snow::before {
@@ -837,15 +853,21 @@ p {
 }
 
 .destination-block--forest::before {
-  background: linear-gradient(160deg, rgba(29, 143, 114, 0.22), rgba(19, 94, 75, 0.06));
+  background:
+    linear-gradient(160deg, rgba(29, 143, 114, 0.22), rgba(19, 94, 75, 0.06)),
+    url("Files/istockphoto-1334792935-612x612.jpg") center/cover no-repeat;
 }
 
 .destination-block--sun::before {
-  background: linear-gradient(160deg, rgba(240, 111, 44, 0.22), rgba(244, 183, 63, 0.06));
+  background:
+    linear-gradient(160deg, rgba(240, 111, 44, 0.22), rgba(244, 183, 63, 0.06)),
+    url("Files/istockphoto-923623322-612x612.jpg") center/cover no-repeat;
 }
 
 .destination-block--sky::before {
-  background: linear-gradient(160deg, rgba(59, 166, 216, 0.22), rgba(41, 100, 173, 0.06));
+  background:
+    linear-gradient(160deg, rgba(59, 166, 216, 0.22), rgba(41, 100, 173, 0.06)),
+    url("Files/2.jpeg") center/cover no-repeat;
 }
 
 .chip-wrap {
