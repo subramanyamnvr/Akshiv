@@ -70,6 +70,21 @@ const translations = {
     "showcase.2Title": "Sacred temple routes with comfortable road planning and peaceful pacing.",
     "showcase.3Label": "Adventure roads",
     "showcase.3Title": "Tunnels, waterfalls, snow points, and mountain drives built for memories.",
+    "gallery.eyebrow": "Trip gallery",
+    "gallery.title": "Real views from Himachal journeys.",
+    "gallery.text": "A quick look at the landscapes, culture, temples, and hill experiences travelers can enjoy on the route.",
+    "gallery.caption1": "Sunrise valley views that make early departures worth it.",
+    "gallery.caption2": "Spiritual stops full of color, calm, and heritage.",
+    "gallery.caption3": "Fresh mountain rivers and scenic road stretches.",
+    "gallery.caption4": "Traditional temples surrounded by cedar forests.",
+    "gallery.caption5": "Open meadows and peaceful hill-station scenes.",
+    "gallery.caption6": "Local culture and memorable travel moments.",
+    "gallery.alt1": "Sunrise view in Himachal",
+    "gallery.alt2": "Monastery interior in Himachal",
+    "gallery.alt3": "Mountain river in Himachal",
+    "gallery.alt4": "Temple in the forest",
+    "gallery.alt5": "Green meadow in Himachal",
+    "gallery.alt6": "Cultural performance in Himachal",
     "packages.eyebrow": "Featured packages",
     "packages.title": "Curated Himachal tours built from real traveler favorites.",
     "packages.text": "Choose a ready route or ask for a personalized plan based on your trip duration, budget, and travel style.",
@@ -250,6 +265,21 @@ const translations = {
     "showcase.2Title": "आरामदायक रोड प्लानिंग और शांत गति के साथ पवित्र मंदिर मार्ग।",
     "showcase.3Label": "रोमांचक सड़कें",
     "showcase.3Title": "टनल, झरने, स्नो पॉइंट और यादगार पहाड़ी ड्राइव।",
+    "gallery.eyebrow": "यात्रा गैलरी",
+    "gallery.title": "हिमाचल यात्राओं के असली दृश्य।",
+    "gallery.text": "यहां उन नज़ारों, संस्कृति, मंदिरों और पहाड़ी अनुभवों की झलक है जिनका आनंद यात्री इस यात्रा में ले सकते हैं।",
+    "gallery.caption1": "सूर्योदय वाली घाटी के दृश्य जो सुबह जल्दी निकलने को खास बना देते हैं।",
+    "gallery.caption2": "रंग, शांति और विरासत से भरे आध्यात्मिक ठहराव।",
+    "gallery.caption3": "ताज़ी पहाड़ी नदियां और खूबसूरत रोड स्ट्रेच।",
+    "gallery.caption4": "देवदार के जंगलों से घिरे पारंपरिक मंदिर।",
+    "gallery.caption5": "खुले घास के मैदान और शांत हिल-स्टेशन दृश्य।",
+    "gallery.caption6": "स्थानीय संस्कृति और यादगार यात्रा पल।",
+    "gallery.alt1": "हिमाचल में सूर्योदय का दृश्य",
+    "gallery.alt2": "हिमाचल में मठ का अंदरूनी दृश्य",
+    "gallery.alt3": "हिमाचल की पहाड़ी नदी",
+    "gallery.alt4": "जंगल में मंदिर",
+    "gallery.alt5": "हिमाचल का हरा घास का मैदान",
+    "gallery.alt6": "हिमाचल का सांस्कृतिक प्रदर्शन",
     "packages.eyebrow": "चुने हुए पैकेज",
     "packages.title": "यात्रियों की पसंद पर आधारित चुने हुए हिमाचल टूर।",
     "packages.text": "तैयार रूट चुनें या अपनी यात्रा अवधि, बजट और पसंद के अनुसार व्यक्तिगत प्लान बनवाएं।",
@@ -430,6 +460,21 @@ const translations = {
     "showcase.2Title": "ਆਰਾਮਦਾਇਕ ਰੋਡ ਪਲਾਨਿੰਗ ਅਤੇ ਸ਼ਾਂਤ ਗਤੀ ਨਾਲ ਪਵਿੱਤਰ ਮੰਦਰ ਮਾਰਗ।",
     "showcase.3Label": "ਰੋਮਾਂਚਕ ਰਸਤੇ",
     "showcase.3Title": "ਸੁਰੰਗਾਂ, ਝਰਨੇ, ਬਰਫ਼ ਵਾਲੇ ਪੁਆਇੰਟ ਅਤੇ ਯਾਦਗਾਰ ਪਹਾੜੀ ਡਰਾਈਵਾਂ।",
+    "gallery.eyebrow": "ਟ੍ਰਿਪ ਗੈਲਰੀ",
+    "gallery.title": "ਹਿਮਾਚਲ ਯਾਤਰਾਵਾਂ ਦੇ ਅਸਲੀ ਦ੍ਰਿਸ਼।",
+    "gallery.text": "ਇੱਥੇ ਉਹਨਾਂ ਨਜ਼ਾਰਿਆਂ, ਸਭਿਆਚਾਰ, ਮੰਦਰਾਂ ਅਤੇ ਪਹਾੜੀ ਤਜਰਬਿਆਂ ਦੀ ਝਲਕ ਹੈ ਜੋ ਯਾਤਰੀ ਇਸ ਰੂਟ 'ਤੇ ਮਹਿਸੂਸ ਕਰ ਸਕਦੇ ਹਨ।",
+    "gallery.caption1": "ਸੂਰਜ ਚੜ੍ਹਦੀ ਘਾਟੀ ਦੇ ਨਜ਼ਾਰੇ ਜੋ ਸਵੇਰੇ ਜਲਦੀ ਨਿਕਲਣ ਨੂੰ ਖ਼ਾਸ ਬਣਾ ਦਿੰਦੇ ਹਨ।",
+    "gallery.caption2": "ਰੰਗ, ਸ਼ਾਂਤੀ ਅਤੇ ਵਿਰਾਸਤ ਨਾਲ ਭਰੇ ਆਧਿਆਤਮਿਕ ਠਹਿਰਾਅ।",
+    "gallery.caption3": "ਤਾਜ਼ੀਆਂ ਪਹਾੜੀ ਨਦੀਆਂ ਅਤੇ ਖੂਬਸੂਰਤ ਸੜਕਾਂ ਦੇ ਦ੍ਰਿਸ਼।",
+    "gallery.caption4": "ਦੇਵਦਾਰ ਦੇ ਜੰਗਲਾਂ ਨਾਲ ਘਿਰੇ ਰਵਾਇਤੀ ਮੰਦਰ।",
+    "gallery.caption5": "ਖੁੱਲ੍ਹੇ ਮੈਦਾਨ ਅਤੇ ਸ਼ਾਂਤ ਹਿੱਲ-ਸਟੇਸ਼ਨ ਦ੍ਰਿਸ਼।",
+    "gallery.caption6": "ਸਥਾਨਕ ਸਭਿਆਚਾਰ ਅਤੇ ਯਾਦਗਾਰ ਯਾਤਰਾ ਦੇ ਪਲ।",
+    "gallery.alt1": "ਹਿਮਾਚਲ ਵਿੱਚ ਸੂਰਜ ਚੜ੍ਹਦਾ ਦ੍ਰਿਸ਼",
+    "gallery.alt2": "ਹਿਮਾਚਲ ਵਿੱਚ ਮਠ ਦਾ ਅੰਦਰਲਾ ਦ੍ਰਿਸ਼",
+    "gallery.alt3": "ਹਿਮਾਚਲ ਦੀ ਪਹਾੜੀ ਨਦੀ",
+    "gallery.alt4": "ਜੰਗਲ ਵਿੱਚ ਮੰਦਰ",
+    "gallery.alt5": "ਹਿਮਾਚਲ ਦਾ ਹਰਾ ਮੈਦਾਨ",
+    "gallery.alt6": "ਹਿਮਾਚਲ ਦਾ ਸਭਿਆਚਾਰਕ ਪ੍ਰਦਰਸ਼ਨ",
     "packages.eyebrow": "ਚੁਣੇ ਹੋਏ ਪੈਕੇਜ",
     "packages.title": "ਅਸਲੀ ਯਾਤਰੀ ਪਸੰਦਾਂ ਅਨੁਸਾਰ ਤਿਆਰ ਕੀਤੇ ਹਿਮਾਚਲ ਟੂਰ।",
     "packages.text": "ਤਿਆਰ ਰੂਟ ਚੁਣੋ ਜਾਂ ਆਪਣੀ ਯਾਤਰਾ ਦੀ ਮਿਆਦ, ਬਜਟ ਅਤੇ ਪਸੰਦ ਅਨੁਸਾਰ ਵਿਅਕਤੀਗਤ ਪਲਾਨ ਬਣਵਾਓ।",
@@ -603,6 +648,13 @@ function translatePage(language) {
     const key = element.dataset.i18nAriaLabel;
     if (dictionary[key]) {
       element.setAttribute("aria-label", dictionary[key]);
+    }
+  });
+
+  document.querySelectorAll("[data-i18n-alt]").forEach((element) => {
+    const key = element.dataset.i18nAlt;
+    if (dictionary[key]) {
+      element.setAttribute("alt", dictionary[key]);
     }
   });
 
